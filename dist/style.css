@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Kosugi+Maru&display=swap');
+*{
+/*   border: solid 1px black; */
+  font-family:'Kosugi Maru',sans-serif;
+}
+
+.ncyu{
+  margin-top: -56px;
+}
+section{
+  padding-top: 80px;
+}
+section#s1{
+  background-color: rgba(123,122,122,0.2);
+}
+section#s2{
+  background-color: #f58b64;
+}
+section#s3{
+  background-color: #baa7a0;
+   padding-bottom:80px;
+}
+section#s4{
+  background-color: #fbffeb;
+  
+}
+.toTop-arrow {
+	width: 2.5rem;
+	height: 2.5rem;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	border-radius: 33%;
+	opacity: 0.6;
+	background: #000;
+	cursor: pointer;
+	position:fixed;
+	right: 1rem;
+	bottom: 1rem;
+	display: none;
+}
+.toTop-arrow::before, .toTop-arrow::after {
+	width: 18px;
+	height: 5px;
+	border-radius: 3px;
+	background: #f90;
+	position: absolute;
+	content: "";
+}
+.toTop-arrow::before {
+	-webkit-transform: rotate(-45deg) translate(0, -50%);
+	        transform: rotate(-45deg) translate(0, -50%);
+	left: 0.5rem;
+}
+.toTop-arrow::after {
+	-webkit-transform: rotate(45deg) translate(0, -50%);
+	        transform: rotate(45deg) translate(0, -50%);
+	right: 0.5rem;
+}
+.toTop-arrow:focus {outline: none;}
+header.jumbotron{
+  margin-top:50px;
+  background-image:url(https://dfghrtse.github.io/img/7848.jpg);
+  background-size: cover;
+  background-attachment:fixed;
+}
+.container{
+  color:white;
+  padding: 100px 0px;
+}
+.test{
+  
+  position:relative;
+  padding-left:15%;
+  
+}
